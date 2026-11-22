@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Flynn's Arcade</title>
+<style>
+  :root {
+    --cream: #f8f6ef;
+    --ink: #232733;
+    --ink-soft: #4c5265;
+    --teal: #0e7a63;
+    --line: #e3ddcd;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
+  header.hero { padding: 56px 0 8px; text-align: left; }
+  .eyebrow {
+    letter-spacing: 0.22em;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--teal);
+    text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: 1.05;
+    margin: 0 0 14px;
+    font-weight: 700;
+  }
+  h1 em { color: var(--teal); font-style: italic; }
+  .version {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--cream);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 18px;
+  }
+  .lead { font-size: 19px; color: var(--ink-soft); max-width: 46em; margin: 0 0 18px; }
+  .tip { font-size: 14px; color: var(--ink-soft); max-width: 46em; }
+  .tip a { color: var(--teal); font-weight: 600; }
+  footer {
+    margin-top: 64px;
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+    color: var(--ink-soft);
+    font-size: 14.5px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">About</p>
+    <h1>Flynn's <em>Arcade</em></h1>
+    <p class="version">Version 1.0.0</p>
+    <p class="lead">An oldtimers room for the young — twenty cabinets built in one night:
+      arcade classics, BBS door games reskinned for the AI age, a card table with honest
+      odds, a bulletin board, and a place to just wander. Made for Flynn and David.</p>
+    <p class="tip"><a href="index.html">← Back to the arcade</a></p>
+  </header>
+
+  <footer>
+    <p>Part of Everyday Cool — the full workshops live at caeled.github.io/everyday-cool ·
+      Free to explore. Built with AI assistance. Curated by a human.</p>
+  </footer>
+
+</div>
+</body>
+</html>
