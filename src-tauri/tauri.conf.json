@@ -21,6 +21,6 @@
     "targets": "all"
   },
   "identifier": "org.flynnsarcade.app",
-  "productName": "Flynn's Arcade",
-  "version": "1.0.0"
+  "productName": "Flynns Arcade",
+  "version": "1.0.1"
 }
